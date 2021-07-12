@@ -1,7 +1,7 @@
 @import "../../assets/style/Variables";
 
 .generate {
-  background: #98CA02;
+  background: $color-light-green;
   border-radius: 3px; 
   width: 103px;
   height: 32px;
@@ -19,6 +19,6 @@
     text-align: center;
     text-transform: uppercase;
 
-    color: #FFFFFF;
+    color: $color-white;
   }
 }

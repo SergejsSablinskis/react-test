@@ -4,7 +4,7 @@
   font-family: $font-museo-sans;
   font-size: 24px;
   line-height: 28px;
-  color: #384045;
+  color: $color-dark-gray;
   display: block;
   margin-bottom: 24px;
 }
@@ -41,7 +41,7 @@
 }
 
 .footer {
-  background: #F4F4F4;
+  background: $color-gray;
   height: 64px;
   position: absolute;
   width: 600px;
@@ -51,7 +51,7 @@
   .errorsContainer {
     position: absolute;
     right: 150px;
-    color: #FF4141;
+    color: $color-red;
     top: 22px;
   }
 }
@@ -59,7 +59,7 @@
 .required {
   &::after {
     content: "*";
-    color: #FF4141;
+    color: $color-red;
   }
 }
 
@@ -69,7 +69,7 @@
   width: 100%;
 
   &.hasError {
-    color: #FF4141;
+    color: $color-red;
   }
 
   &.control {

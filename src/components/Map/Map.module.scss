@@ -5,8 +5,8 @@
 
   .valueWrapper {
     &:nth-child(2) {
-      border-left: solid #DBDBDB 1px;
-      border-right: solid #DBDBDB 1px;
+      border-left: solid $color-smoke 1px;
+      border-right: solid $color-smoke 1px;
       // borders takes 2px more
       width: 138px !important;
     }
@@ -19,7 +19,7 @@
       font-size: 30px;
       line-height: 35px;
       text-align: center;
-      color: #384045;
+      color: $color-dark-gray;
     }
   
     .label {
@@ -27,7 +27,7 @@
       font-size: 12px;
       line-height: 16px;
       text-align: center;
-      color: #797F82;
+      color: $color-dark-smoke;
     }
     
   }
