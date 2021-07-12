@@ -1,0 +1,1 @@
+export const VehicleNumberRequired = "Vehicle number is required!";

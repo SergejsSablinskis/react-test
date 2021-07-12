@@ -1,0 +1,35 @@
+@import "../../assets/style/Variables";
+
+.footer {
+  margin: 24px 90px 24px 90px; 
+
+  .valueWrapper {
+    &:nth-child(2) {
+      border-left: solid #DBDBDB 1px;
+      border-right: solid #DBDBDB 1px;
+      // borders takes 2px more
+      width: 138px !important;
+    }
+
+    display: inline-block;
+    width: 140px;
+    
+    .value {
+      font-family: $font-museo-sans;
+      font-size: 30px;
+      line-height: 35px;
+      text-align: center;
+      color: #384045;
+    }
+  
+    .label {
+      font-family: $font-museo-sans;
+      font-size: 12px;
+      line-height: 16px;
+      text-align: center;
+      color: #797F82;
+    }
+    
+  }
+
+}

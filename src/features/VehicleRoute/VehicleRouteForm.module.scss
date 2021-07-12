@@ -1,0 +1,90 @@
+@import "../../assets/style/Variables";
+
+.title {
+  font-family: $font-museo-sans;
+  font-size: 24px;
+  line-height: 28px;
+  color: #384045;
+  display: block;
+  margin-bottom: 24px;
+}
+
+.contentWrap {
+  padding: 24px 24px 80px 24px;
+} 
+
+.formWrapper { 
+
+  .firstFormBlock {
+    width: 170px;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .secondFormBlock {
+    width: 382px;
+    display: inline-block;
+
+    .dateWrapper {
+      margin-top: 5px;
+      display: inline-block;
+
+      input {
+        width: 176px !important;
+        &.marginRight14 {
+          margin-right: 14px;
+        }
+      }
+    }
+  }
+
+}
+
+.footer {
+  background: #F4F4F4;
+  height: 64px;
+  position: absolute;
+  width: 600px;
+  left: 0;
+  bottom: 0;
+
+  .errorsContainer {
+    position: absolute;
+    right: 150px;
+    color: #FF4141;
+    top: 22px;
+  }
+}
+
+.required {
+  &::after {
+    content: "*";
+    color: #FF4141;
+  }
+}
+
+.label {
+  margin: 10px 0 21px 0;
+  display: inline-block;
+  width: 100%;
+
+  &.hasError {
+    color: #FF4141;
+  }
+
+  &.control {
+    margin: 16px 0 4px 0;
+    width: 176px !important;
+    display: block;
+  }
+}
+
+
+.wrapper {
+  display: inline-block;
+  position: relative;
+  width: 109%;
+  height: 300px;
+  margin-top: 40px;
+  margin-left: -4.5%;
+}
